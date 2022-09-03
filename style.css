@@ -1,0 +1,208 @@
+
+body{
+  background: url(dice.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.body{
+  margin:30px;
+  backdrop-filter: blur(0px) saturate(180%);
+  -webkit-backdrop-filter: blur(0px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.66);
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  border-radius: 12px;
+  height: 5.5in;
+  
+}
+
+.sub_title p{
+  text-align: center;
+  font-size: 30px;
+  align-items: center;
+  font-family: 'Courgette',cursive;
+  
+}
+
+.sub{
+  margin:10px 30px 30px 30px;
+  height: 4.65in;
+  display: flex;
+  position:relative;
+  justify-content:space-around;
+}
+
+.plans{
+    margin:20px;
+    height:80%;
+    width:4in;
+    background-color:white;
+    border-radius:5px;
+    overflow:hidden;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.plans #first,#second{
+  
+  width: 100%;
+  border-radius:5px 5px 0 0;
+}
+
+#third{
+  margin:-23px 0 0 0;
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+
+#sub_des{
+  text-align: center;
+}
+
+#sub_des h2{
+  color:tomato;
+}
+
+#pt{
+  text-align: center;
+  font-family: 'Lobster Two', cursive;
+  font-size: 40px;
+  background: linear-gradient(
+            to right,#7DCE13,#5BB318);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+
+}
+
+
+.pay{
+  margin:10px 20px 10px 20px;
+  height:auto;
+  text-align: center;
+  width:2.3in;
+  background-color:white;
+  border-radius:5px;
+  overflow:hidden;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.desk{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: -50px 0 0 0;
+}
+
+.pay img{
+  width:200px;
+}
+
+#tel{
+  width:2.2in;
+  padding:5px;
+}
+
+
+@media only screen and (max-width:480px) {
+  .sub{
+    margin:10px 30px 30px 30px;
+    height: auto;
+    display:flex;
+    flex-wrap: wrap;
+    position:relative;
+    justify-content:space-around;
+  }
+
+  .plans{
+    margin:20px;
+    height:auto;
+    width:3in;
+    background-color:white;
+    border-radius:5px;
+    overflow:hidden;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  #third{
+    transform: translate(0,0);
+
+  }
+
+  #sub_des h2{
+    font-size: 20px;
+  }
+
+  
+
+  body{
+    background: url(slot.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .body{
+    margin:30px;
+    backdrop-filter: blur(0px) saturate(180%);
+    -webkit-backdrop-filter: blur(0px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.66);
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    border-radius: 12px;
+    height: max-content;
+    
+  }
+
+  .pay{
+    /* margin:20px; */
+    height:auto;
+    text-align: center;
+    width:2.2in;
+    background-color:white;
+    border-radius:5px;
+    overflow:hidden;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+
+  #pd{
+    font-weight: 5px;
+    font-size:20px ;
+    
+  }
+
+  .pay img{
+    width:100%;
+  }
+
+  #p1{
+    margin:10px;
+  }
+
+  #mob::before{
+    content:"\a";
+    white-space: pre;
+  }
+
+  #tele_tit{
+    /* font-size: ; */
+  }
+
+  #tel{
+    width:2.5in;
+    padding:5px;
+  }
+
+  .desk{
+    display: flex;
+    margin: 0 0 0 0;
+
+  }
+
+  .sub_title p{
+    color:white;
+  }
+
+}
+
+
+
+
