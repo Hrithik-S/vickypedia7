@@ -34,7 +34,7 @@ body{
 
 .plans{
     margin:20px;
-    height:85%;
+    height:auto;
     width:2.3in;
     background-color:white;
     border-radius:5px;
@@ -118,7 +118,7 @@ body{
   .plans{
     margin:20px;
     height:auto;
-    width:2.3in;
+    width:2.2in;
     background-color:white;
     border-radius:5px;
     overflow:hidden;
